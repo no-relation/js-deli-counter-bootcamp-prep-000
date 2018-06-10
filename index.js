@@ -9,7 +9,7 @@ function nowServing (katzDeli) {
   }
   else {
     var firstInLine = katzDeli[0];
-    katzDeli.shift;
+    katzDeli.shift();
     return `Currently serving ${firstInLine}.`;
   }
 }
