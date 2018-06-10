@@ -23,6 +23,6 @@ function currentLine(katzDeli) {
     for (var i=0; i < katzDeli.length-1; i++) {
       line += `${i+1}. ${katzDeli[i]}, `;
     }
-    return `The line is currently: ${line} ${katzDeli.length}. ${katzDeli[katzDeli.length]}`;
+    return `The line is currently: ${line} ${katzDeli.length}. ${katzDeli[katzDeli.length-1]}`;
   }
 }
