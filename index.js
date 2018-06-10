@@ -10,6 +10,6 @@ function nowServing (katzDeli) {
   else {
     var firstInLine = katzDeli[0];
     katzDeli.shift;
-    return `Currently serving $firstInLine`;
+    return `Currently serving ${firstInLine}`;
   }
 }
